@@ -54,7 +54,7 @@ hello-world-argocd-qa/
 
    This script applies all secrets, configmaps, Argo CD application definitions, etc. for hello-world QA.
 
-4. **Verify in Argo CD UI**:
+5. **Verify in Argo CD UI**:
    ```bash
    kubectl port-forward svc/argocd-server -n argocd 8080:443
    # Access: https://localhost:8080
