@@ -16,7 +16,7 @@ This repository contains the Argo CD Application manifest for the **QA** environ
 hello-world-argocd-qa/
 ├── app-of-apps.yaml                  # Root Application
 ├── argocd/
-│   └── hello-world-dev-application.yaml  # DEV environment Application manifest (auto-synced)
+│   └── hello-world-qa-application.yaml  # QA environment Application manifest (auto-synced)
 ├── argocd-repository-secret.yaml     # Argo CD repository secrets
 ├── ghcr-credentials-secret.yaml      # GHCR credentials (set once per K8s cluster for organization)
 ├── notifications-configmap.yaml      # Argo CD notifications configuration
